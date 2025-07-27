@@ -2,9 +2,7 @@ Asteroid Game
 A simple arcade-style game implemented in Python using object-oriented principles. The player controls a spaceship, shoots asteroids, and avoids collisions. The game tracks and displays the player's score.
 
 Project Structure
-bash
-Copy
-Edit
+
 .
 ├── main.py              # Game entry point and main loop
 ├── asteroid.py          # Asteroid behavior
@@ -15,6 +13,7 @@ Edit
 ├── shot.py              # Bullet behavior
 ├── pyproject.toml       # Poetry-based dependency management
 └── uv.lock              # Dependency lock file
+
 Gameplay
 Move the spaceship using arrow keys or WASD.
 
@@ -33,9 +32,7 @@ Python 3.10 or later
 Poetry for dependency management
 
 Running the Game
-bash
-Copy
-Edit
+
 git clone https://github.com/prateekdhar/asteroid-game
 cd asteroid-game
 poetry install
